@@ -22,9 +22,15 @@ p {
 }
 
 img {
-    margin: 0 auto;
     max-width: 100%;
     background-size: cover;
+}
+
+.cat-table {
     background-image: url(cat-lazy.jpg);
     background-color: bisque;
+}
+
+.cat-butterfly {
+    background-color: #4488AA;
 }
