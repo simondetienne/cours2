@@ -9,23 +9,22 @@
 <body>
     <h1>Voici mon chat</h1>
     <section>
-
-        <img    src="cat.jpg"
-                alt="Quel beau chat !"
-                width="800"
-                height="533"
-                srcset="cat-400w.jpg 400w, cat-800w.jpg 800w"
-                sizes="(max-width: 640px) 400px, 800px"
-                loading="eager"
-                decoding="async"
-                class="cat-table">
+        <div class="table">
+            <img    src="cat.jpg"
+                    alt="Quel beau chat !"
+                    srcset="cat-400w.jpg 400w, cat-800w.jpg 800w"
+                    sizes="(max-width: 640px) 400px, 800px"
+                    loading="eager"
+                    decoding="async"
+                    class="cat-table">
+        </div>
 
         <p>Cette entreprise jeune, dynamique et novatrice met la santé de nos chats et la qualité de leurs produits au cœur de leurs valeurs. Du logo à l’emballage en carton, en passant par le design des sachets fraicheurs (refermables s’il vous plait !). Avec une image de marque amusante, ludique et colorée, Petty Well ne se prend pas trop au sérieux ce qui n’est pas sans nous rappeler la relation unique et aimante que nous avons avec nos animaux de compagnie.</p>
         <p>Vous l’aurez compris, ce n’est pas une marque comme les autres. Bien loin des marques que nous connaissons, cette jeune entreprise française souhaite se démarquer sur tous les niveaux : processus d’achat, qualité des aliments, esthétique des emballages et visuels etc. Commençons par découvrir le fameux “questionnaire Petty Well“, une solution idéale pour trouver les croquettes les plus appropriés à matou !</p>
 
         <picture class="center-picture">
             <img    src="cat-2.jpg"
-                    alt="Quel beau chat !"
+                    alt="Joli papillon !"
                     width="533"
                     height="800"
                     srcset="cat-2-400w.jpg 400w, cat-2-800w.jpg 800w"
@@ -33,6 +32,25 @@
                     loading="lazy"
                     decoding="async"
                     class="cat-butterfly">
+        </picture>
+
+        <br/>
+
+        <picture class="center-picture">
+            <source media="(min-width: 700px)" srcset="dog-3.jpg" type="image/jpeg">
+            <source media="(min-width: 475px)" srcset="dog-2.jpg" type="image/jpeg">
+            <img src="dog-1.webp" alt="Joli chien !">
+        </picture>
+
+        <br/>
+
+        <picture class="center-picture">
+            <source media="(min-width: 700px)" srcset="dog-3-large.jpg" type="image/jpeg">
+            <source media="(min-width: 475px)" srcset="dog-3-medium.jpg" type="image/jpeg">
+            <img    src="dog-3-small.jpg"
+                    alt="Joli chien !"
+                    loading="lazy"
+                    decoding="async">
         </picture>
 
     </section>

@@ -34,9 +34,22 @@ img {
 .cat-table {
     background-image: url(cat-lazy.jpg);
     background-color: bisque;
+    width: 100%;
+    position: absolute;
+    top:0;
 }
 
 .cat-butterfly {
     margin-top: 1000px;
     background-color: #4488AA;
+}
+
+.table {
+    position: relative;
+    padding-top: 67%; /* Aspect ratio of 533/800  */
+    width: 100%;
+}
+
+.dog {
+    background-color: brown;
 }
