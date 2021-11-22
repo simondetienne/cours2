@@ -1,0 +1,28 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 18px;
+    width: 100%;
+    line-height: 1.5;
+}
+h1 {
+    margin: 1em auto;
+    text-align: center;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+p {
+    margin: 1em auto;
+}
+
+img {
+    max-width: 100%;
+    background-size: cover;
+    background-image: url(cat-lazy.jpg);
+}
