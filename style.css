@@ -25,4 +25,5 @@ img {
     max-width: 100%;
     background-size: cover;
     background-image: url(cat-lazy.jpg);
+    background-color: bisque;
 }
