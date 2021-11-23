@@ -53,3 +53,14 @@ img {
 .dog {
     background-color: brown;
 }
+
+/* Media queries */
+
+@media (min-width: 800px) {
+
+}
+
+/* SVG */
+
+/* Gradients */
+
