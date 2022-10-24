@@ -1,66 +1,14 @@
-body {
-    font-family: helvetica, arial, sans-serif;
-    font-size: 18px;
-    width: 100%;
-    line-height: 1.5;
-}
-h1 {
-    margin: 1em auto;
-    text-align: center;
-    font-family: helvetica, arial, sans-serif;
-    font-weight: bold;
-    font-size: 4em;
-}
-
-section {
-    margin: 0 auto;
-    max-width: 800px;
-}
-
-p {
-    margin: 1em auto;
-}
-
-.center-picture {
-    display: flex;
-    justify-content: center;
-}
-
-img {
-    max-width: 100%;
-    background-size: cover;
-}
-
-.cat-table {
-    background-image: url(cat-lazy.jpg);
-    background-color: bisque;
-    width: 100%;
-    position: absolute;
-    top:0;
-}
-
-.cat-butterfly {
-    margin-top: 1000px;
-    background-color: #4488AA;
-}
-
-.table {
-    position: relative;
-    padding-top: 67%; /* Aspect ratio of 533/800  */
-    width: 100%;
-}
-
-.dog {
-    background-color: brown;
-}
-
 /* Media queries */
 
-@media (min-width: 800px) {
-
-}
-
-/* SVG */
-
-/* Gradients */
+@media (min-width: 760px) {
+    body {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2em;
+    }
+  }
+  
+  img {
+    width: 100%;
+  }
 

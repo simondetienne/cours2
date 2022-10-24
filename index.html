@@ -3,12 +3,21 @@
 <head>
     <title>On joue avec des images de chats</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="reset.css">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Voici mon chat</h1>
-    <section>
+    <img    src=coolcat.jpg"
+                alt="Un chat super cool"
+                srcset="coolcat.jpg 500w,
+                        coolcat-1000.jpg 1000w,
+                        coolcat-1500.jpg 1500w"
+                sizes="(min-width: 760px) 50vw, 100vw"
+                class="cat">
+
+    <p>Cette entreprise jeune, dynamique et novatrice met la santé de nos chats et la qualité de leurs produits au cœur de leurs valeurs. Du logo à l’emballage en carton, en passant par le design des sachets fraicheurs (refermables s’il vous plait !). Avec une image de marque amusante, ludique et colorée, Petty Well ne se prend pas trop au sérieux ce qui n’est pas sans nous rappeler la relation unique et aimante que nous avons avec nos animaux de compagnie.</p>
+    <!-- <section>
+        <h1>Voici mon chat</h1>
         <div class="table">
             <img    src="cat.jpg"
                     alt="Quel beau chat !"
@@ -17,10 +26,6 @@
                     loading="eager"
                     decoding="async"
                     class="cat-table">
-        </div>
-
-        <p>Cette entreprise jeune, dynamique et novatrice met la santé de nos chats et la qualité de leurs produits au cœur de leurs valeurs. Du logo à l’emballage en carton, en passant par le design des sachets fraicheurs (refermables s’il vous plait !). Avec une image de marque amusante, ludique et colorée, Petty Well ne se prend pas trop au sérieux ce qui n’est pas sans nous rappeler la relation unique et aimante que nous avons avec nos animaux de compagnie.</p>
-        <p>Vous l’aurez compris, ce n’est pas une marque comme les autres. Bien loin des marques que nous connaissons, cette jeune entreprise française souhaite se démarquer sur tous les niveaux : processus d’achat, qualité des aliments, esthétique des emballages et visuels etc. Commençons par découvrir le fameux “questionnaire Petty Well“, une solution idéale pour trouver les croquettes les plus appropriés à matou !</p>
 
         <picture class="center-picture">
             <img    src="cat-2.jpg"
@@ -39,7 +44,7 @@
             <img src="dog-1.webp" alt="Joli chien !">
         </picture>
 
-        <br/>
+       <br/>
 
         <picture class="center-picture">
             <source media="(min-width: 700px)" srcset="dog-3-large.jpg" type="image/jpeg">
@@ -71,7 +76,6 @@
                 </g>
             </g>
         </svg>
-
-    </section>
+    </section> -->
 </body>
 </html>

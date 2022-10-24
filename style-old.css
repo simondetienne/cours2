@@ -1,0 +1,63 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 18px;
+    width: 100%;
+    line-height: 1.5;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 2rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+p {
+    width: 800px;
+    margin: 0;
+}
+
+.cat {
+    max-width: 100%;
+}
+
+/* Media queries */
+
+@media (min-width: 800px) {
+
+    section {
+        display: flex;
+        max-width: 1200px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    .cat {
+        width: 400px;
+    }
+
+    p {
+        color: red !important;
+        width: 400px;
+    }
+
+}
+
+/* SVG */
+
+/* Gradients */
+
